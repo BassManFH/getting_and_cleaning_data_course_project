@@ -1,18 +1,19 @@
 ##Describing column names in result tidy dataset:
-"SubjectID"
-IDs for people in experiment, numeric, 1:30
-"Activity"
-Type of activity: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
+First two columns:<br />
+ - "SubjectID"<br />
+IDs for people in experiment, numeric, 1:30<br />
+ - "Activity"<br />
+Type of activity: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"<br />
 #Activity measurements
-All the names described below are mean values for means and standart deviations for all the measurements for activity and subject
-prefix 't' or 'f' - time or frequency, by signal type
-'Body' or 'Gravity' - body or gravity types of signals
-'Acc' - accelerometer signal
-'Jerk' - jerk signals
-'Mag' - magnetude
-'Gyro' - gyroscope signals
-'std' or 'mean' - standart deviation or mean of measurements
-'X','Y','Z' is used to denote 3-axial signals in the X, Y and Z directions.
+All the names described below are mean values for means and standart deviations for all the measurements for activity and subject:<br />
+prefix 't' or 'f' - time or frequency, by signal type<br />
+'Body' or 'Gravity' - body or gravity types of signals<br />
+'Acc' - accelerometer signal<br />
+'Jerk' - jerk signals<br />
+'Mag' - magnetude<br />
+'Gyro' - gyroscope signals<br />
+'std' or 'mean' - standart deviation or mean of measurements<br />
+'X','Y','Z' is used to denote 3-axial signals in the X, Y and Z directions.<br />
 
 "tBodyAcc.mean...X"
 "tBodyAcc.mean...Y"
