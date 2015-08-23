@@ -1,4 +1,4 @@
-##Describing column names in result tidy dataset:
+#Describing column names in result tidy dataset:
 First two columns:<br />
  - "SubjectID"<br />
 IDs for people in experiment, numeric, 1:30<br />
@@ -6,7 +6,7 @@ IDs for people in experiment, numeric, 1:30<br />
 Type of activity: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"<br />
 
 
-#Activity measurements
+##Activity measurements
 All the names described below are mean values for means and standart deviations for all the measurements for activity and subject:<br />
 prefix 't' or 'f' - time or frequency, by signal type<br />
 'Body' or 'Gravity' - body or gravity types of signals<br />
@@ -16,7 +16,7 @@ prefix 't' or 'f' - time or frequency, by signal type<br />
 'Gyro' - gyroscope signals<br />
 'std' or 'mean' - standart deviation or mean of measurements<br />
 'X','Y','Z' is used to denote 3-axial signals in the X, Y and Z directions.<br />
-
+Names for all other columns coded as described above:<br />
 "tBodyAcc.mean...X"
 "tBodyAcc.mean...Y"
 "tBodyAcc.mean...Z"
