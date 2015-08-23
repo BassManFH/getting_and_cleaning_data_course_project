@@ -4,6 +4,8 @@ First two columns:<br />
 IDs for people in experiment, numeric, 1:30<br />
  - "Activity"<br />
 Type of activity: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"<br />
+
+
 #Activity measurements
 All the names described below are mean values for means and standart deviations for all the measurements for activity and subject:<br />
 prefix 't' or 'f' - time or frequency, by signal type<br />
